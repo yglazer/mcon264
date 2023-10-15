@@ -18,10 +18,12 @@ public class Stackint {
 		
 		ls.pop();
 		ls.pop();
+		//to check if it popped properly
 		System.out.println("I am peeking:");
 		System.out.println(ls.peek());
 		
 		ls.push(100);
+		//to check if it push properly
 		System.out.println("I am peeking:");
 		System.out.println(ls.peek());
 	}

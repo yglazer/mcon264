@@ -7,7 +7,7 @@ public class Stackstring {
 		ls.push("Mo");
 		ls.push("Yo");
 		ls.push("Vo");
-		//I should have elements
+		//I should have 4 elements
 		System.out.println("This is the amount of elements:");
 		System.out.println(ls.size());
 		
@@ -18,12 +18,14 @@ public class Stackstring {
 		
 		ls.pop();
 		ls.pop();
+		//to check if it is popping well
 		System.out.println("I am peeking:");
 		System.out.println(ls.peek());
 		
 		ls.push("Toe");
+		//to check if it pushed properly 
 		System.out.println("I am peeking:");
 		System.out.println(ls.peek());
 	}
-
+	
 }
