@@ -12,7 +12,7 @@ public class ReverseString {
 		if (index<0) {
 			System.out.println(reversedString);
 			System.out.println("Were done. Bye Bye!");
-			System.exit(0);
+			return;
 		}
 		
 		char letter= original.charAt(index);

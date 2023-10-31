@@ -11,7 +11,7 @@ public class SearchArray {
 	public static void search(int [] array, int index, int searchNum) {
 		if (index==array.length-1) {
 			System.out.println("Sorry not found");
-			System.exit(0);
+			return;
 		}
 		if (array[index]==searchNum) {
 			System.out.println("Found at index:"+index);

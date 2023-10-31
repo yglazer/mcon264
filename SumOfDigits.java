@@ -12,7 +12,7 @@ public class SumOfDigits {
 			if (index==array.length) {
 				System.out.println(total);
 				System.out.println("Were done. Bye Bye!");
-				System.exit(0);
+				return;
 			}
 			
 			total+=array[index];
